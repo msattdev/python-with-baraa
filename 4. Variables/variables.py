@@ -1,6 +1,12 @@
-x = 1
-print(x) # Output: 1
+# x = 1
+# print(x) # Output: 1
 
-print("My name is Matt")
-print("Matt is learning Python")
-print("Matt wants to become a Python expert")
+# print("My name is Matt")
+# print("Matt is learning Python")
+# print("Matt wants to become a Python expert")
+
+# name = 'Matt'
+name = 'Maria'
+print("My name is", name)
+print(name, "is learning Python!")
+print(name, "wants to become a Python expert!")
