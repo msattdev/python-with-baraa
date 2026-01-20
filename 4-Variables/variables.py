@@ -10,3 +10,9 @@ name = 'Maria'
 print("My name is", name)
 print(name, "is learning Python!")
 print(name, "wants to become a Python expert!")
+
+name = "Matt"
+language = 'Javascript'
+print("My name is", name)
+print(name, "is learning", language)
+print(name, "wants to become a", language, "expert!")
