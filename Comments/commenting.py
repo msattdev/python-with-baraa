@@ -3,4 +3,4 @@ x = 10
 
 x = 9 # Final exam score
 
-print(x)
+print(x) # Prints the final exam score
