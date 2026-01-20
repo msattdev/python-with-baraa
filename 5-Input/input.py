@@ -1,2 +1,3 @@
 name = input('Enter Your Name: ')
-print('You are', name)
+country = 'USA'
+print(name, "comes from", country)
