@@ -6,3 +6,6 @@ d = True #bool
 e = [1,2,3] #list
 f = (4,5,6) #tuple
 g = { 'name': 'Alice', 'age': 30 } #dict
+h = None #NoneType
+i = "" #str, blank
+j = " " #str, white space
