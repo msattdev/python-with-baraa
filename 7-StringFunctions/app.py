@@ -27,9 +27,9 @@ else:
 # More math
 text = """
 Python is easy to learn.
-Python is powerful.
+Python is powerful$.
 Many people love python.
 """
 
 text.count('Python')  # Counts occurrences of 'Python' in the text
-print(text.count('python'))
+print(text.count('$'))
