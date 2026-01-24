@@ -15,6 +15,11 @@ print(type(age))  # str
 print(age)
 
 # Math 
-password = '123a'
-len(password)  # 4
+password = '12wrwrwrwrw3a'
 print(len(password))
+
+
+if len(password) < 8:
+    print('Your password is too short!')
+else:
+    print('Your password is long enough!')
