@@ -19,4 +19,5 @@ y = 3.14
 print(int(y))
 
 z = 3
-print(float(z))
+a = 4
+print(complex(z,a))
