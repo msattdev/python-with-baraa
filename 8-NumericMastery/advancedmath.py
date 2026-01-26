@@ -10,3 +10,4 @@ print(y.is_integer())
 
 z = 70.4
 print(isinstance(z, int))
+print(isinstance(z, float))
