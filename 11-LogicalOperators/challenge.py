@@ -1,4 +1,7 @@
 # Check if a user's name is not empty and the age is greater than or equal to 18
+from operator import is_
+
+
 username = 'Matt'
 age = 18
 print(username and age >= 18)
@@ -18,3 +21,9 @@ user_name = 'MattSatt'
 print(isinstance(user_name, str) and user_name is not None and len(user_name) > 5)
 
 # Check if the user is either an admin or moderator and either they're not banned or they've verified their email.
+user = 'MattSatt'
+is_admin = False
+is_moderator = True
+is_banned = False
+is_email_verified = True
+print((is_admin or is_moderator) and (not is_banned or is_email_verified))
