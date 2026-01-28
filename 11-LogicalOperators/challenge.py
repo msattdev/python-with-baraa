@@ -9,11 +9,12 @@ space_count = password.count(' ')
 print((len(password) >= 8) and space_count == 0)
 
 # Check if a user's email is not empty, contains '@', and ends with '.com'
-user_email = ''
+user_email = 'test@123.com'
+    
+print(user_email and user_email.count('@') == 1 and user_email.endswith('.com'))
 
-print(not user_email and user_email.count('@') == 1 and user_email.endswith('.com'))
-
-# Check if a username is a string, is not None, andis longer than 5 charatcers
-
+# Check if a username is a string, is not None, and is longer than 5 characters
+user_name = 'MattSatt'
+print(isinstance(user_name, str) and user_name is not None and len(user_name) > 5)
 
 # Check if the user is either an admin or moderator and either they're not banned or they've verified their email.
