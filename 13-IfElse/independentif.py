@@ -1,6 +1,6 @@
 # Independent if example
 score = 90
-submitted_project = False
+submitted_project = True
 
 if score >= 90:
     print("High Score")
