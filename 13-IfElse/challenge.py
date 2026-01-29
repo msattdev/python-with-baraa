@@ -6,6 +6,7 @@
 # Must not be longer than 254 characters
 
 user_email = 'hacktest@test.com'
+user_email = user_email.strip()
 
 if user_email != '':
     if '@' in user_email and '.' in user_email:
