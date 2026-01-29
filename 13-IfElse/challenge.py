@@ -5,6 +5,9 @@
 # Must end with '.com', '.org', or '.net'
 # Must not be longer than 254 characters
 
+from curses.ascii import isalnum
+
+
 user_email = 'hacktest@test.com'
 user_email = user_email.strip()
 
@@ -13,7 +16,10 @@ if user_email != '':
         if user_email.count('@') == 1:
             if user_email.endswith(('.com','.org','net')):
                 if len(user_email) <= 254:
-                    print("Your email address is valid!")
+                    if user_email[0].isalnum() and user_email[-1].isalnum():
+                        print("Valid Email")
+                    else:
+                        print("Email must start and end with an alphanumeric character")
                 else:
                     print("Email must not be longer than 254 characters")
             else:
