@@ -12,3 +12,6 @@ for letter in name:
 
 for num in range(1,5):
     print(f'Number: {num}')
+
+for num in range(1,10,3):
+    print(f'Number with step 2: {num}')
