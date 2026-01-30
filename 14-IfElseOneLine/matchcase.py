@@ -1,10 +1,10 @@
 # Match case
-country = "France"
+country = "USA"
 
 match country:
     case "India":
         print("IN")
-    case "USA":
+    case "USA" | "United States":
         print("US")
     case "Germany":
         print("DE")
