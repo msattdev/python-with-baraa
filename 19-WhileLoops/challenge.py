@@ -11,4 +11,4 @@ while count < 3:
         break
     count += 1
 else:
-    print("3 Strikes, You are Out!")
+    print("3 Strikes. You are Out!")
