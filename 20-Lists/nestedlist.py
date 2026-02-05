@@ -5,5 +5,6 @@ matrix = [
     [7,8,9]
 ] # 3x3 matrix
 
+print(matrix)
 for row in matrix:
     print(row)
