@@ -5,6 +5,13 @@ my_list = ['a','b','b','c','c','c','c','d','e','f']
 count_a = my_list.count('a')
 print(f"The letter 'a' appears {count_a} times in the list.")
 
+# Count occurrences of 'c' using a loop
+count = 0
+for x in my_list:
+    if x == 'c':
+        count += 1
+print(f"The letter 'c' appears {count} times in the list.")
+
 # Count occurrences of 'c'
 count_c = my_list.count('c')
 print(f"The letter 'c' appears {count_c} times in the list.")
