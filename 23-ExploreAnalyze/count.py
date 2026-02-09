@@ -27,3 +27,7 @@ print(f"The letter 'c' appears {count_c} times in the list.")
 # Count occurrences of 'x' (not in the list)
 count_x = my_list.count('x')
 print(f"The letter 'x' appears {count_x} times in the list.")
+
+# Count occurrences of 'f'
+count_f = my_list.count('f')
+print(f"The letter 'f' appears {count_f} times in the list.")
